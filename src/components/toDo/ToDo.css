@@ -1,0 +1,33 @@
+.Form{
+	display: flex;
+	flex-direction: row;
+	flex: auto;
+	padding: 0.1% 0%;
+  }
+
+.Input-text {
+	flex: 10;
+	padding: 1%;
+}
+
+.Submit {
+	flex: 1;
+}
+
+.ToDos {
+	flex: 0;
+	flex-direction: column;
+}
+
+.btn {
+	display: inline-block;
+	border: none;
+	background: #555;
+	color: #fff;
+	padding: 1% 1%;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background: #666;
+}
